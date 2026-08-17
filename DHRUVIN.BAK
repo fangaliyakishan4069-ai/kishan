@@ -1,0 +1,19 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int per;
+	clrscr();
+	printf("\n\tper :");
+	scanf("%d",&per);
+	if(per>80)
+	{
+		printf("\n\t pass");
+	}
+	else
+	{
+	       printf("\n\tfail");
+	}
+	getch();
+	return 0;
+}
